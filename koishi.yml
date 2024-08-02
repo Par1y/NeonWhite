@@ -1,0 +1,329 @@
+plugins:
+  group:server:
+    server:v28dz6:
+      host: 0.0.0.0
+      port: 5150
+      maxPort: 5159
+      selfUrl: 
+    server-satori:yhz5nd:
+      token: 
+    server-temp:vdwdec:
+      selfUrl: 
+  group:basic:
+    admin:5zulbb: {}
+    bind:c3180y: {}
+    commands:3x04l5:
+      rryth:
+        name: /sai
+        aliases:
+          rryth:
+            filter: false
+          rr:
+            filter: false
+        config:
+          maxUsage: 200
+          minInterval: 20000
+          usageName: rryth2
+      sus.eval:
+        config:
+          hidden: true
+      sus.history:
+        config:
+          hidden: true
+      sus.history.clean:
+        config:
+          permissions:
+            - authority:2
+          hidden: true
+      sus.prom:
+        config:
+          hidden: true
+          permissions:
+            - authority:3
+      sus.prom.current:
+        config:
+          hidden: true
+      sus.prom.exec:
+        config:
+          hidden: true
+      sus.prom.set:
+        config:
+          hidden: true
+      plugin:
+        config:
+          permissions:
+            - authority:4
+          hidden: true
+      sus.reload:
+        name: sus/sk.重载
+        aliases:
+          sk.重载: null
+          sus.reload:
+            filter: false
+      sus:
+        name: /sk
+        aliases:
+          sk: null
+          sus:
+            filter: false
+        config:
+          usageName: ai
+      自检:
+        config:
+          permissions:
+            - authority:2
+      help:
+        aliases:
+          help:
+            filter: false
+        config:
+          hidden: true
+      inspect:
+        config:
+          hidden: true
+          permissions:
+            - authority:3
+      help-pro:
+        name: /帮助
+        aliases:
+          帮助: null
+          help-pro:
+            filter: false
+      bind:
+        config:
+          hidden: true
+      command:
+        config:
+          hidden: true
+      channel:
+        config:
+          hidden: true
+      markdowntoimage:
+        config:
+          hidden: true
+      timer:
+        config:
+          hidden: true
+          permissions:
+            - authority:2
+      usage:
+        config:
+          hidden: true
+          permissions:
+            - authority:2
+      user:
+        config:
+          hidden: true
+      p5advanceletter:
+        name: /p5
+        aliases:
+          p5: null
+          p5advanceletter:
+            filter: false
+      p5advanceletter.生成ui:
+        name: p5advanceletter/p5ui
+        aliases:
+          p5ui: null
+          p5advanceletter.生成ui:
+            filter: false
+          P5预告信: null
+      p5advanceletter.生成预告信:
+        aliases:
+          p5预告信: null
+          p5advanceletter.生成预告信:
+            filter: false
+          P5预告信: null
+        name: p5advanceletter/p5预告信
+      jrysmax:
+        name: /签到
+        aliases:
+          签到: null
+          jrysmax:
+            filter: false
+        config:
+          usageName: qd
+      music:
+        name: /点歌
+        aliases:
+          music:
+            filter: false
+          mdff:
+            filter: false
+      tagger:
+        name: /鉴图
+        aliases:
+          鉴图: null
+      emix:
+        config:
+          usageName: emix
+      huozi-generator:
+        name: /活字印刷
+        aliases:
+          huozi-generator:
+            filter: false
+          活字乱刷:
+            filter: false
+      vits:
+        name: /say
+      随机emojihub表情包:
+        aliases:
+          随机表情: null
+          随机emojihub表情包:
+            filter: false
+        name: emojihub-bili/随机表情
+    ~help:jr84dc: {}
+    inspect:0bj96e: {}
+    locales:zgccyf: {}
+    proxy-agent:hij8rt: {}
+    rate-limit:40097z: {}
+    telemetry:clg9v9: {}
+    puppeteer:11y6lx:
+      args:
+        - '--enable-accelerated-2d-canvas'
+    http:6tuvaz: {}
+  group:console:
+    actions:ivreku: {}
+    analytics:kcwoz2: {}
+    android:yfb0az:
+      $if: env.KOISHI_AGENT?.includes('Android')
+    auth:cz5yb9:
+      admin:
+        username: zoombie
+        password: Coral@621
+    config:we2hc5: {}
+    console:clbf05:
+      open: false
+    dataview:kx811h: {}
+    desktop:1rsx0i:
+      $if: env.KOISHI_AGENT?.includes('Desktop')
+    explorer:yhnog9: {}
+    logger:xsrfkz: {}
+    insight:orzv74: {}
+    market:qg8rpv:
+      search:
+        endpoint: https://koishi.itzdrli.com/
+      registry:
+        endpoint: ''
+    notifier:v7var7: {}
+    oobe:farzhw: {}
+    sandbox:gvbfad: {}
+    status:n0sf7j: {}
+    theme-vanilla:l4ehcq: {}
+  group:storage:
+    database-sqlite:q34umz:
+      path: data/koishi.db
+    assets-local:5j0sko: {}
+  group:adapter:
+    adapter-onebot:01try0:
+      token:
+      selfId: 
+  group:j7vbra:
+    downloads:gl3km9: {}
+    ~canvas:ajx30c: {}
+    markdown-to-image-service:vlaiky:
+      enableExtendedTableSyntax: true
+    $label: support
+    booru-konachan:774l44:
+      endpoint: https://konachan.net/
+    booru-lolibooru:w207lj: {}
+    booru-lolicon:rnzyns: {}
+    booru-safebooru:0re5br: {}
+    liquid:d923f6:
+      cache: true
+    booru-yande:1yk2y3: {}
+    cache-memory:ypylhq: {}
+    nix:ib3af6: {}
+  group:develop:
+    $if: env.NODE_ENV === 'development'
+    hmr:wj077s:
+      root: .
+  group:ge3xt5:
+    axlmly-role-playing-game:bnaxjv:
+      logger: true
+    rr2:eb7z9k:
+      forbidden: >-
+        nude, sex, blood, pussy, anal, dick, penis, nsfw, futa, ass, breast,
+        nipple, creampie, gangbang, rape, footjob, jackoff, blowjob, handjob,
+        nudity, r18, r15, gay, pregnantm, zoombie
+      basePrompt: masterpiece, best quality, {{{sfw}}}
+      negativePrompt: >-
+        nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers,
+        extra digit, fewer digits, cropped, worst quality, low quality, normal
+        quality, jpeg artifacts, signature, watermark, username, blurry, nude,
+        sex
+      maxConcurrency: 2
+    help-pro:k8pbfd:
+      background: file:///home/admin/neon/helpbg.png
+      output: image2
+      color: rgba(234, 165, 17, 0.92)
+      maxRenderPeerPage: 40
+    $label: workload
+    sus-chat:9t604p:
+      api: 
+      api_key: 
+      prompt:
+        prompt_directory: sus
+        default_prompt: neonwhite
+        pro_prompt: true
+      functionality:
+        tiggering:
+          random_reply:
+            probability: 0.01
+          keywords: {}
+        logging: true
+      temperature: 0.24
+      model: Doubao-pro-128k
+    ba-plugin:7fs06r:
+      drawconfig:
+        modle: false
+      plugin_config:
+        draw_modle: puppeteer
+        auto_update: false
+    p5-advance-letter-generator:yh3nyq:
+      imageType: jpeg
+    emojihub-bili:em4fo3: {}
+    genshinvoice-vits:dl1azo:
+      speaker: 神里绫华_ZH
+    pjsk-pptr:c7pl2t: {}
+    shindan-maker:qbwldb:
+      isTextToImageConversionEnabled: true
+      imageType: jpeg
+    status-pro:ffeddq:
+      botName: NeonWhite
+    github-og:lkfwar: {}
+    booru:fnxovc:
+      spoiler: 2
+      maxCount: 3
+    maxim:07copc:
+      文案选择:
+        - 一言
+        - 人间
+        - 诗词
+        - kfc
+        - 解梦
+        - 谜语
+      保底图片: 路径输入
+      图片路径: helpbg.png
+    emojimixer:feksyd:
+      no_command: true
+    music-downloadvoice-api:5r980u:
+      imageMode: true
+    ~waifu-diffusion-tagger:9gpxa7: {}
+    huozi-generator:xjvfq2:
+      default_inYsddMode: true
+      default_norm: true
+    maimai:yfkb4q:
+      divingFish:
+        token:
+      quester:
+        keepAlive: false
+      lxns:
+        token: 
+    jrys-max:6tae5i:
+      imgurl: https://t.mwm.moe/pc
+prefix:
+  - ''
+  - /
+nickname:
+  - neonwhite
+timezoneOffset: 0

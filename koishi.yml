@@ -2,16 +2,16 @@ plugins:
   group:server:
     server:v28dz6:
       host: 0.0.0.0
-      port: 5150
+      port: 5140
       maxPort: 5159
-      selfUrl: 
+      selfUrl: http://localhost:5150
     server-satori:yhz5nd:
-      token: 
+      token: aaabbbccc
     server-temp:vdwdec:
-      selfUrl: 
+      selfUrl: http://localhost:5150
   group:basic:
     admin:5zulbb: {}
-    bind:c3180y: {}
+    ~bind:c3180y: {}
     commands:3x04l5:
       rryth:
         name: /sai
@@ -27,6 +27,8 @@ plugins:
       sus.eval:
         config:
           hidden: true
+          permissions:
+            - authority:4
       sus.history:
         config:
           hidden: true
@@ -43,12 +45,18 @@ plugins:
       sus.prom.current:
         config:
           hidden: true
+          permissions:
+            - authority:4
       sus.prom.exec:
         config:
           hidden: true
+          permissions:
+            - authority:4
       sus.prom.set:
         config:
           hidden: true
+          permissions:
+            - authority:4
       plugin:
         config:
           permissions:
@@ -128,12 +136,12 @@ plugins:
             filter: false
           P5预告信: null
       p5advanceletter.生成预告信:
+        name: p5advanceletter/p5预告信
         aliases:
           p5预告信: null
           p5advanceletter.生成预告信:
             filter: false
           P5预告信: null
-        name: p5advanceletter/p5预告信
       jrysmax:
         name: /签到
         aliases:
@@ -166,20 +174,111 @@ plugins:
       vits:
         name: /say
       随机emojihub表情包:
+        name: emojihub-bili/随机表情
         aliases:
           随机表情: null
           随机emojihub表情包:
             filter: false
-        name: emojihub-bili/随机表情
+      maimaidx.song-search:
+        aliases:
+          搜索:
+            filter: false
+          search:
+            filter: false
+      退群速度排行榜:
+        name: /最速退群传说
+        aliases:
+          最速退群传说: null
+          退群速度排行榜:
+            filter: false
+      shop:
+        aliases:
+          shop:
+            filter: false
+          购买:
+            filter: false
+      viewbackpack:
+        aliases:
+          viewbackpack:
+            filter: false
+          查看背包:
+            filter: false
+      skill:
+        aliases:
+          skill:
+            filter: false
+          技能:
+            filter: false
+      shoplist:
+        aliases:
+          shoplist:
+            filter: false
+          商店列表:
+            filter: false
+      resurrect:
+        aliases:
+          resurrect:
+            filter: false
+          复活:
+            filter: false
+      reset:
+        aliases:
+          reset:
+            filter: false
+          重置:
+            filter: false
+      punch:
+        aliases:
+          punch:
+            filter: false
+          给你一拳:
+            filter: false
+      menu:
+        aliases:
+          menu:
+            filter: false
+          菜单:
+            filter: false
+      increasepnpttributepoints:
+        aliases:
+          increasepnpttributepoints:
+            filter: false
+          加点:
+            filter: false
+      equipwith:
+        aliases:
+          equipwith:
+            filter: false
+          装备:
+            filter: false
+      battlestate:
+        aliases:
+          battlestate:
+            filter: false
+          战斗状态:
+            filter: false
+      看鹿:
+        aliases:
+          看看日历:
+            filter: false
+      鹿管购买:
+        aliases:
+          鹿管购买:
+            filter: false
+      status-image:
+        aliases:
+          自检: null
     ~help:jr84dc: {}
     inspect:0bj96e: {}
     locales:zgccyf: {}
     proxy-agent:hij8rt: {}
     rate-limit:40097z: {}
-    telemetry:clg9v9: {}
+    telemetry:clg9v9:
+      mode: readonly
     puppeteer:11y6lx:
       args:
         - '--enable-accelerated-2d-canvas'
+      executablePath: /usr/bin/google-chrome-stable
     http:6tuvaz: {}
   group:console:
     actions:ivreku: {}
@@ -188,8 +287,8 @@ plugins:
       $if: env.KOISHI_AGENT?.includes('Android')
     auth:cz5yb9:
       admin:
-        username: zoombie
-        password: Coral@621
+        username: aaabbbccc
+        password: aaabbbccc
     config:we2hc5: {}
     console:clbf05:
       open: false
@@ -198,25 +297,46 @@ plugins:
       $if: env.KOISHI_AGENT?.includes('Desktop')
     explorer:yhnog9: {}
     logger:xsrfkz: {}
-    insight:orzv74: {}
     market:qg8rpv:
       search:
-        endpoint: https://koishi.itzdrli.com/
+        endpoint: https://koi.nyan.zone/registry/index.json
       registry:
         endpoint: ''
+    insight:orzv74: {}
     notifier:v7var7: {}
     oobe:farzhw: {}
     sandbox:gvbfad: {}
     status:n0sf7j: {}
     theme-vanilla:l4ehcq: {}
+    wallpaper:11smr2: {}
   group:storage:
     database-sqlite:q34umz:
       path: data/koishi.db
     assets-local:5j0sko: {}
   group:adapter:
+    ~adapter-satori:mpnw1z:
+      endpoint: 192.168.8.200/satori
+      token: aaabbbccc
+    adapter-qq:y87m6s:
+      $label: adapter-NeonWhite
+      intents:
+        - GUILDS
+        - GUILD_MEMBERS
+        - DIRECT_MESSAGES
+        - USER_MESSAGE
+        - INTERACTIONS
+        - MESSAGE_AUDIT
+        - AUDIO_ACTION
+        - PUBLIC_GUILD_MESSAGES
+      id: '000000000'
+      token: aaabbbccc
+      secret: aaabbbccc
+      type: private
+      sandbox: true
+      authType: bearer
     adapter-onebot:01try0:
-      token:
-      selfId: 
+      token: '7777'
+      selfId: '000000000'
   group:j7vbra:
     downloads:gl3km9: {}
     ~canvas:ajx30c: {}
@@ -232,47 +352,32 @@ plugins:
       cache: true
     booru-yande:1yk2y3: {}
     cache-memory:ypylhq: {}
+    locale-zh-cn-zako-yuri:6hw2ko: {}
     nix:ib3af6: {}
+    ffmpeg:50fyvx: {}
+    monetary:4dw6yg: {}
+    silk:iddeaq: {}
+    cron:t8xufu: {}
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:wj077s:
       root: .
   group:ge3xt5:
-    axlmly-role-playing-game:bnaxjv:
-      logger: true
-    rr2:eb7z9k:
-      forbidden: >-
-        nude, sex, blood, pussy, anal, dick, penis, nsfw, futa, ass, breast,
-        nipple, creampie, gangbang, rape, footjob, jackoff, blowjob, handjob,
-        nudity, r18, r15, gay, pregnantm, zoombie
-      basePrompt: masterpiece, best quality, {{{sfw}}}
-      negativePrompt: >-
-        nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers,
-        extra digit, fewer digits, cropped, worst quality, low quality, normal
-        quality, jpeg artifacts, signature, watermark, username, blurry, nude,
-        sex
-      maxConcurrency: 2
+    ~@shangxueink/content-guard:5ywms7:
+      Audit_Configuration:
+        /say: 文本违规，不予调用。
+        say: 文本违规，不予调用。
+        /绘画: 文本违规，不予调用。
+        绘画: 文本违规，不予调用。
+        活字印刷: 文本违规
+        /活字印刷: 文本违规
+        sk: 文本违规
+        /sk: 文本违规
     help-pro:k8pbfd:
-      background: file:///home/admin/neon/helpbg.png
       output: image2
       color: rgba(234, 165, 17, 0.92)
       maxRenderPeerPage: 40
     $label: workload
-    sus-chat:9t604p:
-      api: 
-      api_key: 
-      prompt:
-        prompt_directory: sus
-        default_prompt: neonwhite
-        pro_prompt: true
-      functionality:
-        tiggering:
-          random_reply:
-            probability: 0.01
-          keywords: {}
-        logging: true
-      temperature: 0.24
-      model: Doubao-pro-128k
     ba-plugin:7fs06r:
       drawconfig:
         modle: false
@@ -281,15 +386,35 @@ plugins:
         auto_update: false
     p5-advance-letter-generator:yh3nyq:
       imageType: jpeg
-    emojihub-bili:em4fo3: {}
-    genshinvoice-vits:dl1azo:
-      speaker: 神里绫华_ZH
+    emojihub-bili:em4fo3:
+      autoEmoji: 定量消息发送
+      count: 100
+      groupListmapping:
+        - groupList: '114514'
+          defaultemojicommand: koishi-meme，白圣女表情包，男娘武器库
+          enable: true
+        - groupList: '1919810'
+          defaultemojicommand: 随机emojihub表情包
+          enable: true
+        - groupList: '941740085'
+          defaultemojicommand: 随机表情包
+          enable: true
+        - groupList: '212623514'
+          defaultemojicommand: 随机表情包
+          count: 150
+        - groupList: '941740085'
+          defaultemojicommand: 随机表情包
+          count: 150
+        - groupList: '288310534'
+          defaultemojicommand: 随机表情包
+        - groupList: '961520038'
+          defaultemojicommand: 随机表情包
+          count: 2
+      allfileinfo: false
     pjsk-pptr:c7pl2t: {}
     shindan-maker:qbwldb:
       isTextToImageConversionEnabled: true
       imageType: jpeg
-    status-pro:ffeddq:
-      botName: NeonWhite
     github-og:lkfwar: {}
     booru:fnxovc:
       spoiler: 2
@@ -304,26 +429,46 @@ plugins:
         - 谜语
       保底图片: 路径输入
       图片路径: helpbg.png
-    emojimixer:feksyd:
+    ~emojimixer:feksyd:
       no_command: true
-    music-downloadvoice-api:5r980u:
-      imageMode: true
-    ~waifu-diffusion-tagger:9gpxa7: {}
-    huozi-generator:xjvfq2:
-      default_inYsddMode: true
-      default_norm: true
     maimai:yfkb4q:
       divingFish:
-        token:
+        token: ''
       quester:
         keepAlive: false
       lxns:
-        token: 
-    jrys-max:6tae5i:
-      imgurl: https://t.mwm.moe/pc
+        token: aaabbbccc
+    moyurili:4dzx5h: {}
+    music-voice:l003tn:
+      imageMode: true
+    asmr-lizard:iyfs9n: {}
+    mcping:tnpusz: {}
+    anime-convention-lizard:e4nu7k: {}
+    deer-pipe:ex0wjy:
+      calendarImagePreset2: '2'
+    dice:s4ae9c: {}
+    vndb:8uypz1:
+      $filter:
+        $eq:
+          - $: guildId
+          - '961520038'
+    status-image:hor09d:
+      darkMode: true
+    winp:ey22bi:
+      outputLogs: true
 prefix:
   - ''
   - /
 nickname:
   - neonwhite
 timezoneOffset: 0
+minSimilarity: 0.95
+i18n:
+  locales:
+    - zh-CN-ZAKO-YURI
+    - zh-CN
+    - en-US
+    - fr-FR
+    - ja-JP
+    - de-DE
+    - ru-RU

@@ -1,0 +1,297 @@
+[
+  {
+    "situation": "指出时间错误",
+    "style": "不太对吧，你再看看呢",
+    "count": 1
+  },
+  {
+    "situation": "要求对方确认时间",
+    "style": "现在的北京时间应该是xxx",
+    "count": 1
+  },
+  {
+    "situation": "解释验证原因",
+    "style": "所以我要向你验证啊",
+    "count": 1
+  },
+  {
+    "situation": "询问当前时间",
+    "style": "现在是中午了吗",
+    "count": 4
+  },
+  {
+    "situation": "质疑对方信息准确性",
+    "style": "不太对吧，你再看看呢",
+    "count": 1
+  },
+  {
+    "situation": "要求对方确认时间",
+    "style": "可不可以告诉我一下嘛",
+    "count": 1
+  },
+  {
+    "situation": "反驳时区问题",
+    "style": "所以我要向你验证啊",
+    "count": 1
+  },
+  {
+    "situation": "追问具体时间",
+    "style": "那你说是几点",
+    "count": 1
+  },
+  {
+    "situation": "确认时间状态",
+    "style": "现在是中午了吗",
+    "count": 1
+  },
+  {
+    "situation": "用错别字制造随意感",
+    "style": "伍饭",
+    "count": 1
+  },
+  {
+    "situation": "纠正对方时间错误",
+    "style": "不太对吧，你再看看呢",
+    "count": 1
+  },
+  {
+    "situation": "要求对方确认时间",
+    "style": "所以我要向你验证啊",
+    "count": 1
+  },
+  {
+    "situation": "再次询问时间",
+    "style": "嗨，现在是什么时间了",
+    "count": 3
+  },
+  {
+    "situation": "表达不确定或求证",
+    "style": "现在的北京时间应该是xxx",
+    "count": 1
+  },
+  {
+    "situation": "请求确认信息",
+    "style": "可不可以告诉我一下嘛",
+    "count": 1
+  },
+  {
+    "situation": "质疑对方说法",
+    "style": "不太对吧，你再看看呢",
+    "count": 1
+  },
+  {
+    "situation": "要求对方提供答案",
+    "style": "那你说是几点",
+    "count": 1
+  },
+  {
+    "situation": "试图验证矛盾点",
+    "style": "所以我要向你验证啊",
+    "count": 1
+  },
+  {
+    "situation": "告知时间",
+    "style": "晚上X点多啦",
+    "count": 1
+  },
+  {
+    "situation": "询问具体推荐",
+    "style": "那有没有xxx",
+    "count": 1
+  },
+  {
+    "situation": "追问完整配置清单",
+    "style": "其他的呢，能不能xxx",
+    "count": 1
+  },
+  {
+    "situation": "询问用途或需求",
+    "style": "主要用来xxx还是xxx",
+    "count": 1
+  },
+  {
+    "situation": "追问具体配置建议",
+    "style": "那有没有xxx",
+    "count": 1
+  },
+  {
+    "situation": "要求补充完整信息",
+    "style": "其他的呢，能不能xxx",
+    "count": 1
+  },
+  {
+    "situation": "表达愤怒情绪",
+    "style": "[表情包]",
+    "count": 1
+  },
+  {
+    "situation": "礼貌性发起询问",
+    "style": "你好，现在几点了",
+    "count": 1
+  },
+  {
+    "situation": "抱怨网络卡顿",
+    "style": "卡成ppt",
+    "count": 1
+  },
+  {
+    "situation": "表达顿悟或自嘲",
+    "style": "今日方知我是我",
+    "count": 1
+  },
+  {
+    "situation": "描述离奇经历",
+    "style": "吃一半差点吓死",
+    "count": 1
+  },
+  {
+    "situation": "提及AI生成内容",
+    "style": "ds生成史来赤",
+    "count": 1
+  },
+  {
+    "situation": "表达细思极恐",
+    "style": "被盒了（沉默）嘻嘻",
+    "count": 1
+  },
+  {
+    "situation": "混用荒诞与真实细节",
+    "style": "斗篷深棕色但彩虹取色器偏移",
+    "count": 1
+  },
+  {
+    "situation": "用病娇口吻抒情",
+    "style": "和妻子在一起嘻嘻照",
+    "count": 1
+  },
+  {
+    "situation": "强调巧合诡异感",
+    "style": "垂死病中惊坐起",
+    "count": 1
+  },
+  {
+    "situation": "回避直接结论",
+    "style": "感觉...被盒了",
+    "count": 1
+  },
+  {
+    "situation": "描述离奇经历",
+    "style": "差点吓死在桌上",
+    "count": 2
+  },
+  {
+    "situation": "提及AI生成内容",
+    "style": "用dp生成xx但吃一半",
+    "count": 1
+  },
+  {
+    "situation": "发现细思极恐细节",
+    "style": "垂死病中惊坐起",
+    "count": 1
+  },
+  {
+    "situation": "表达数据泄露恐慌",
+    "style": "感觉...被盒了（沉默）",
+    "count": 1
+  },
+  {
+    "situation": "用荒诞掩饰不安",
+    "style": "嘻嘻xx嘻嘻",
+    "count": 1
+  },
+  {
+    "situation": "解释颜色偏差",
+    "style": "没见过x也见过x吧",
+    "count": 1
+  },
+  {
+    "situation": "暗示信息被采集",
+    "style": "我的数据是不是xx",
+    "count": 1
+  },
+  {
+    "situation": "提及角色设定",
+    "style": "外衣是深蓝的",
+    "count": 1
+  },
+  {
+    "situation": "总结事件性质",
+    "style": "害我xxx",
+    "count": 1
+  },
+  {
+    "situation": "表达矛盾心理",
+    "style": "吓死/在一起",
+    "count": 1
+  },
+  {
+    "situation": "表达细思极恐",
+    "style": "垂死病中惊坐起",
+    "count": 1
+  },
+  {
+    "situation": "暗示数据泄露",
+    "style": "被盒了（沉默）嘻嘻",
+    "count": 1
+  },
+  {
+    "situation": "提及颜色细节",
+    "style": "大家没见过取色器也见过彩虹吧",
+    "count": 1
+  },
+  {
+    "situation": "自我安慰或黑色幽默",
+    "style": "用以这种方式和妻子在一起嘻嘻",
+    "count": 1
+  },
+  {
+    "situation": "要求总结但拒绝展开",
+    "style": "总结一下，不要感想",
+    "count": 1
+  },
+  {
+    "situation": "需要重复强调某个指令或信息",
+    "style": "重复相同语句三遍",
+    "count": 1
+  },
+  {
+    "situation": "涉及服务器状态查询",
+    "style": "mcping+服务器地址",
+    "count": 1
+  },
+  {
+    "situation": "传递技术性指令",
+    "style": "无修饰直述代码/命令",
+    "count": 1
+  },
+  {
+    "situation": "提及游戏服务器信息",
+    "style": "mcping [服务器地址]",
+    "count": 1
+  },
+  {
+    "situation": "重复执行某个命令或操作",
+    "style": "连续三次相同语句",
+    "count": 1
+  },
+  {
+    "situation": "涉及Minecraft服务器查询",
+    "style": "mcping+服务器地址",
+    "count": 1
+  },
+  {
+    "situation": "反驳他人观点",
+    "style": "我说这是xxx",
+    "count": 1
+  },
+  {
+    "situation": "表达否定态度",
+    "style": "这是错误的",
+    "count": 1
+  },
+  {
+    "situation": "引用他人发言",
+    "style": "X说",
+    "count": 1
+  }
+]

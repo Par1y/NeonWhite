@@ -1,0 +1,412 @@
+[
+  {
+    "situation": "询问具体时间",
+    "style": "完整陈述句(10-15字)",
+    "count": 1
+  },
+  {
+    "situation": "回应质疑",
+    "style": "因果逻辑短句(8-10字)",
+    "count": 1
+  },
+  {
+    "situation": "确认时间状态",
+    "style": "疑问短句(5-7字)",
+    "count": 1
+  },
+  {
+    "situation": "纠正错误",
+    "style": "否定短语(2-3字)",
+    "count": 1
+  },
+  {
+    "situation": "提出疑问",
+    "style": "短句（5-7个字）加问号",
+    "count": 1
+  },
+  {
+    "situation": "回应疑问",
+    "style": "短句（4-6个字）加语气词",
+    "count": 1
+  },
+  {
+    "situation": "确认时间",
+    "style": "简洁问句（6-7个字）",
+    "count": 1
+  },
+  {
+    "situation": "需要确认信息",
+    "style": "完整短句(6-8个字)",
+    "count": 1
+  },
+  {
+    "situation": "回应否定判断",
+    "style": "极简否定短语(3个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问时间状态",
+    "style": "省略标点的疑问短句(7个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "省略主语的疑问句（4-7个字）",
+    "count": 1
+  },
+  {
+    "situation": "提出质疑",
+    "style": "副词开头的短句（5-8个字）",
+    "count": 1
+  },
+  {
+    "situation": "请求验证信息",
+    "style": "因果连词连接的复合句（8-10个字）",
+    "count": 1
+  },
+  {
+    "situation": "确认时间状态",
+    "style": "省略谓语的简单疑问句（3-5个字）",
+    "count": 1
+  },
+  {
+    "situation": "询问具体信息",
+    "style": "短句提问(5-8个字)",
+    "count": 1
+  },
+  {
+    "situation": "提出质疑或反驳",
+    "style": "简短反问句(6-9个字)",
+    "count": 1
+  },
+  {
+    "situation": "请求确认或验证",
+    "style": "带语气词的疑问句(8-12个字)",
+    "count": 1
+  },
+  {
+    "situation": "表达时间相关疑问",
+    "style": "直接时间名词+疑问词(7-10个字)",
+    "count": 1
+  },
+  {
+    "situation": "提出疑问或验证信息",
+    "style": "完整短句（6-9字）包含语气词",
+    "count": 1
+  },
+  {
+    "situation": "进行简单时间询问",
+    "style": "@提及+简短疑问句（5-7字）",
+    "count": 1
+  },
+  {
+    "situation": "纠正打字错误",
+    "style": "单字重复修正（1字）",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "省略主语+时间疑问词(7-9个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "陈述句（8-12个字）",
+    "count": 1
+  },
+  {
+    "situation": "验证信息",
+    "style": "带疑问词（5-8个字）",
+    "count": 1
+  },
+  {
+    "situation": "确认时间",
+    "style": "简单疑问句（6-8个字）",
+    "count": 1
+  },
+  {
+    "situation": "表达时间",
+    "style": "省略主语的短句（4-6个字）",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "疑问句（5-10字）",
+    "count": 1
+  },
+  {
+    "situation": "质疑对方回答",
+    "style": "否定+反问（6-8字）",
+    "count": 1
+  },
+  {
+    "situation": "要求对方确认",
+    "style": "陈述句+语气词（7-9字）",
+    "count": 1
+  },
+  {
+    "situation": "简单追问",
+    "style": "短句（3-5字）",
+    "count": 1
+  },
+  {
+    "situation": "重复提问时间",
+    "style": "省略主语的疑问句（4-6字）",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "简单疑问句(5-8个字)",
+    "count": 1
+  },
+  {
+    "situation": "质疑对方回答",
+    "style": "否定副词+疑问语气(7-10个字)",
+    "count": 1
+  },
+  {
+    "situation": "重复询问时间",
+    "style": "省略主语的短句(4-6个字)",
+    "count": 1
+  },
+  {
+    "situation": "要求验证信息",
+    "style": "因果连词引导的陈述句(8-12个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "完整陈述句（10-15个字）",
+    "count": 1
+  },
+  {
+    "situation": "验证信息",
+    "style": "带逻辑连接词（'所以'）的短句（6-8个字）",
+    "count": 1
+  },
+  {
+    "situation": "再次确认时间",
+    "style": "省略主语的疑问句（5-7个字）",
+    "count": 1
+  },
+  {
+    "situation": "重复提问时间",
+    "style": "带问候语的疑问句（8-10个字）",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "陈述句带推测语气(10-15字)",
+    "count": 1
+  },
+  {
+    "situation": "需要验证信息",
+    "style": "省略主语的短句(5-8字)",
+    "count": 1
+  },
+  {
+    "situation": "重复他人疑问",
+    "style": "直接引述原话(6-8字)",
+    "count": 1
+  },
+  {
+    "situation": "二次确认时间",
+    "style": "@+称呼的疑问短句(7-9字)",
+    "count": 1
+  },
+  {
+    "situation": "询问对方信息",
+    "style": "疑问句（5-8字）",
+    "count": 1
+  },
+  {
+    "situation": "表达轻微质疑",
+    "style": "陈述句+语气词（7-10字）",
+    "count": 1
+  },
+  {
+    "situation": "纠正对方说法",
+    "style": "转折连词+时间表述（10-12字）",
+    "count": 1
+  },
+  {
+    "situation": "回应反问时",
+    "style": "反问句（4-6字）",
+    "count": 1
+  },
+  {
+    "situation": "提出具体硬件建议",
+    "style": "名词短语（4-6字）",
+    "count": 1
+  },
+  {
+    "situation": "追问补充信息",
+    "style": "省略主语的疑问短句（5-8字）",
+    "count": 1
+  },
+  {
+    "situation": "询问时间",
+    "style": "完整主谓宾结构（6-8字）",
+    "count": 1
+  },
+  {
+    "situation": "表达询问时间",
+    "style": "完整主谓宾结构（6-8字）",
+    "count": 1
+  },
+  {
+    "situation": "进行简短指令",
+    "style": "无主语的动词短语（2个字）",
+    "count": 1
+  },
+  {
+    "situation": "询问简单信息",
+    "style": "短句疑问句(4-6个字)",
+    "count": 2
+  },
+  {
+    "situation": "进行简短回应",
+    "style": "单字或极短肯定句(1-2个字)",
+    "count": 1
+  },
+  {
+    "situation": "发出指令或检查",
+    "style": "无主语的动词短语(2个字)",
+    "count": 1
+  },
+  {
+    "situation": "回答简单确认",
+    "style": "单字肯定句(1-2个字)",
+    "count": 1
+  },
+  {
+    "situation": "执行指令性操作",
+    "style": "无主谓结构的动词短语(2个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问简单信息",
+    "style": "短疑问句(4-6个字)",
+    "count": 1
+  },
+  {
+    "situation": "进行简短回应",
+    "style": "无主语的肯定句(1-3个字)",
+    "count": 1
+  },
+  {
+    "situation": "执行指令性操作",
+    "style": "动词短语(2个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问或陈述简单事实",
+    "style": "短句（3-7个字）",
+    "count": 1
+  },
+  {
+    "situation": "表达突然的发现或结论",
+    "style": "短句（4-6个字）",
+    "count": 1
+  },
+  {
+    "situation": "需要确认信息",
+    "style": "单字或简短回答（1-2个字）",
+    "count": 1
+  },
+  {
+    "situation": "描述较长的情景或对话",
+    "style": "复合句（10-20个字）",
+    "count": 1
+  },
+  {
+    "situation": "回答简单是非问句",
+    "style": "单字肯定回答(1个字)",
+    "count": 1
+  },
+  {
+    "situation": "重复对方问题并确认",
+    "style": "主谓完整短句(5-7个字)",
+    "count": 1
+  },
+  {
+    "situation": "询问简单信息",
+    "style": "短句提问（5-7个字）",
+    "count": 1
+  },
+  {
+    "situation": "进行简短回应",
+    "style": "单字回答（1个字）",
+    "count": 1
+  },
+  {
+    "situation": "确认事实",
+    "style": "简短肯定（1-2个字）",
+    "count": 1
+  },
+  {
+    "situation": "表达指令",
+    "style": "无主语的动词短语（2个字）",
+    "count": 1
+  },
+  {
+    "situation": "重复执行相同操作",
+    "style": "完全相同的短句重复三次（7个单词）",
+    "count": 1
+  },
+  {
+    "situation": "命令式请求",
+    "style": "无主语的动词开头结构（mcping+服务器地址）",
+    "count": 1
+  },
+  {
+    "situation": "描述具体事件或经历",
+    "style": "长句（20-40字）包含细节描述",
+    "count": 1
+  },
+  {
+    "situation": "表达突然的发现或惊讶",
+    "style": "短句（5-10字）加省略号或破折号",
+    "count": 1
+  },
+  {
+    "situation": "重复强调某个信息",
+    "style": "完全相同的短句（3-5字）重复三次",
+    "count": 1
+  },
+  {
+    "situation": "总结或概括内容",
+    "style": "冒号引导的短句（10-15字）",
+    "count": 1
+  },
+  {
+    "situation": "表达自嘲或讽刺",
+    "style": "括号插入补充说明（5-10字）",
+    "count": 1
+  },
+  {
+    "situation": "表达游戏服务器信息",
+    "style": "英文术语+冒号端口号(总字数10-15字)",
+    "count": 1
+  },
+  {
+    "situation": "传递简短指令或参数",
+    "style": "无标点短语(3-5个单词)",
+    "count": 1
+  },
+  {
+    "situation": "询问具体信息",
+    "style": "完整疑问句（8-10字）",
+    "count": 1
+  },
+  {
+    "situation": "指出错误时",
+    "style": "简短陈述句（5-6字）",
+    "count": 1
+  },
+  {
+    "situation": "表达否定观点",
+    "style": "主谓宾完整句（5-7字）",
+    "count": 1
+  }
+]

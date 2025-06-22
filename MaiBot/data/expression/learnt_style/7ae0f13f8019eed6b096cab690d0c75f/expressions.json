@@ -1,0 +1,487 @@
+[
+  {
+    "situation": "说明客观限制",
+    "style": "直播鸡开播锁国区了",
+    "count": 2
+  },
+  {
+    "situation": "询问趣味点或不解",
+    "style": "有意思在哪",
+    "count": 3
+  },
+  {
+    "situation": "描述物品外观",
+    "style": "展示...的图片",
+    "count": 2
+  },
+  {
+    "situation": "表达困惑或疑问",
+    "style": "邦高祖流汗",
+    "count": 2
+  },
+  {
+    "situation": "调侃他人失败原因",
+    "style": "打不过xxx 恼羞成怒",
+    "count": 2
+  },
+  {
+    "situation": "用方言攻击他人",
+    "style": "侬这乡毋宁",
+    "count": 2
+  },
+  {
+    "situation": "吐槽联盟活跃度低",
+    "style": "另外内xx%是残疾人吗",
+    "count": 2
+  },
+  {
+    "situation": "表达困惑或质疑",
+    "style": "什么玩意xxx",
+    "count": 2
+  },
+  {
+    "situation": "质疑真实性或描述矛盾时",
+    "style": "看着不像真的xx",
+    "count": 4
+  },
+  {
+    "situation": "暗示资源稀缺性",
+    "style": "你去了就没了",
+    "count": 3
+  },
+  {
+    "situation": "对比角色性能优劣",
+    "style": "X确实强，但没Y也挺难受",
+    "count": 1
+  },
+  {
+    "situation": "强调价格与价值不匹配",
+    "style": "两瓶都喝不回来",
+    "count": 1
+  },
+  {
+    "situation": "强调游戏设定矛盾",
+    "style": "硬核不媚宅…要似了喵",
+    "count": 1
+  },
+  {
+    "situation": "强调季节感受",
+    "style": "这才叫xxx",
+    "count": 1
+  },
+  {
+    "situation": "配合表情强化夸赞",
+    "style": "你真棒棒",
+    "count": 1
+  },
+  {
+    "situation": "涉及外貌/身份调侃",
+    "style": "你长得可不是这样",
+    "count": 1
+  },
+  {
+    "situation": "批判代际退步现象",
+    "style": "完美解释什么叫一代不如一代",
+    "count": 1
+  },
+  {
+    "situation": "通过荒诞逻辑合理化行为",
+    "style": "牛的自我性别认知是xx",
+    "count": 1
+  },
+  {
+    "situation": "使用谐音或双关梗",
+    "style": "炮鸡",
+    "count": 1
+  },
+  {
+    "situation": "用轻浮或调侃的语气提出请求",
+    "style": "可以坐我腿上吗",
+    "count": 2
+  },
+  {
+    "situation": "提及重要事件",
+    "style": "高考了要",
+    "count": 1
+  },
+  {
+    "situation": "简短质疑观点时",
+    "style": "真的吗",
+    "count": 1
+  },
+  {
+    "situation": "指出或解释某物",
+    "style": "xxx吧，xxx在后边",
+    "count": 1
+  },
+  {
+    "situation": "说明后续计划或补充",
+    "style": "后期再加吧",
+    "count": 1
+  },
+  {
+    "situation": "简短描述状态或动作",
+    "style": "飞起来",
+    "count": 1
+  },
+  {
+    "situation": "强调资源消耗大",
+    "style": "得费将近xx石头",
+    "count": 1
+  },
+  {
+    "situation": "建议养成策略",
+    "style": "优先练一个人",
+    "count": 1
+  },
+  {
+    "situation": "感叹资源不足",
+    "style": "没过过苦日子",
+    "count": 1
+  },
+  {
+    "situation": "表达战斗或对抗场景",
+    "style": "接敌/全力一战",
+    "count": 1
+  },
+  {
+    "situation": "回应私聊或邀约",
+    "style": "要约对吗/包的",
+    "count": 1
+  },
+  {
+    "situation": "极度愤怒或无奈",
+    "style": "我真给他码杀了",
+    "count": 1
+  },
+  {
+    "situation": "提出游戏策略建议",
+    "style": "不用全队140，两个就行",
+    "count": 1
+  },
+  {
+    "situation": "强调逐步提升",
+    "style": "一个一个练",
+    "count": 1
+  },
+  {
+    "situation": "调侃经典作品/文化现象",
+    "style": "堪称日本xxx",
+    "count": 1
+  },
+  {
+    "situation": "提及游戏/网络梗",
+    "style": "xx薄纱xx",
+    "count": 1
+  },
+  {
+    "situation": "描述自动化成果",
+    "style": "已经xxxw了还是自动打的",
+    "count": 1
+  },
+  {
+    "situation": "转折补充观点",
+    "style": "不过不少xxx来着",
+    "count": 1
+  },
+  {
+    "situation": "描述天气舒适感",
+    "style": "这才叫夏天",
+    "count": 1
+  },
+  {
+    "situation": "强调状态转变",
+    "style": "起飞了这回",
+    "count": 1
+  },
+  {
+    "situation": "用重复词强化语气",
+    "style": "你真棒棒",
+    "count": 1
+  },
+  {
+    "situation": "讨论游戏机制或策略",
+    "style": "就是堆xxx",
+    "count": 1
+  },
+  {
+    "situation": "提及属性克制",
+    "style": "还得吃xxx",
+    "count": 1
+  },
+  {
+    "situation": "吐槽非核心机制",
+    "style": "xxx都不是xxx",
+    "count": 1
+  },
+  {
+    "situation": "表达强烈不满或嘲讽",
+    "style": "我操了",
+    "count": 1
+  },
+  {
+    "situation": "讽刺代际退步",
+    "style": "一代不如一代",
+    "count": 2
+  },
+  {
+    "situation": "计数或汇报进度",
+    "style": "xx图了",
+    "count": 1
+  },
+  {
+    "situation": "重复对方问题",
+    "style": "我今晚干嘛",
+    "count": 1
+  },
+  {
+    "situation": "转移对话场合",
+    "style": "私聊",
+    "count": 1
+  },
+  {
+    "situation": "强调现状更好",
+    "style": "相比之下肯定还是现在好呢",
+    "count": 1
+  },
+  {
+    "situation": "表达强烈不满或鄙视",
+    "style": "那还几把不如xxx",
+    "count": 1
+  },
+  {
+    "situation": "情绪激动或愤怒",
+    "style": "我操了",
+    "count": 1
+  },
+  {
+    "situation": "询问或期待新内容",
+    "style": "不知道今年有什么活儿",
+    "count": 1
+  },
+  {
+    "situation": "表示轻蔑或不屑",
+    "style": "什么寄吧",
+    "count": 1
+  },
+  {
+    "situation": "强调极端否定",
+    "style": "不如xxx/甚至不如xxx",
+    "count": 1
+  },
+  {
+    "situation": "通过对比贬低某物",
+    "style": "那还几把不如xx呢",
+    "count": 1
+  },
+  {
+    "situation": "快速切换比喻对象",
+    "style": "那就日本xx",
+    "count": 1
+  },
+  {
+    "situation": "否定角色强度",
+    "style": "真不行/没伤害",
+    "count": 1
+  },
+  {
+    "situation": "回应他人并传递积极情绪",
+    "style": "太好了",
+    "count": 1
+  },
+  {
+    "situation": "解释内容来源",
+    "style": "刚刚在其他群存的",
+    "count": 1
+  },
+  {
+    "situation": "用荒诞场景表达幽默",
+    "style": "猫跳防盗网吊三，回来硬了",
+    "count": 1
+  },
+  {
+    "situation": "评价游戏对战结果",
+    "style": "xx薄纱xx",
+    "count": 1
+  },
+  {
+    "situation": "重复强调某个观点",
+    "style": "臭二次元真的什么也不懂",
+    "count": 1
+  },
+  {
+    "situation": "贬低角色强度",
+    "style": "弟中之弟",
+    "count": 1
+  },
+  {
+    "situation": "否定阵容价值",
+    "style": "废物属性",
+    "count": 1
+  },
+  {
+    "situation": "表达摆烂心态",
+    "style": "凹个集贸xx",
+    "count": 1
+  },
+  {
+    "situation": "嘲讽低配环境",
+    "style": "矬子里拔大个",
+    "count": 1
+  },
+  {
+    "situation": "表示对角色或装备的强度不满",
+    "style": "我会是这个屌样吗",
+    "count": 1
+  },
+  {
+    "situation": "预测装备或角色贬值",
+    "style": "等xx就不值钱了",
+    "count": 1
+  },
+  {
+    "situation": "反驳对方观点时用极端假设",
+    "style": "你无限子弹的话不就xxx",
+    "count": 1
+  },
+  {
+    "situation": "用角色特性反讽对方逻辑",
+    "style": "你都xx了还说个g8",
+    "count": 1
+  },
+  {
+    "situation": "强调角色依赖特定属性",
+    "style": "xx吃xx",
+    "count": 1
+  },
+  {
+    "situation": "用夸张数据表达不满",
+    "style": "都999xx",
+    "count": 1
+  },
+  {
+    "situation": "表示震惊或感叹",
+    "style": "太镇实了 真",
+    "count": 1
+  },
+  {
+    "situation": "炫耀游戏/成就进展",
+    "style": "起飞了这回",
+    "count": 1
+  },
+  {
+    "situation": "强调操作优势",
+    "style": "没有换弹，甩狙要甩飞起来了",
+    "count": 1
+  },
+  {
+    "situation": "用数据佐证成就",
+    "style": "靶场已经xxx了",
+    "count": 1
+  },
+  {
+    "situation": "回应他人并传递积极情绪",
+    "style": "太好了",
+    "count": 1
+  },
+  {
+    "situation": "简短附和他人观点",
+    "style": "确实",
+    "count": 1
+  },
+  {
+    "situation": "打断或请求发言权",
+    "style": "能撤了让我发不",
+    "count": 1
+  },
+  {
+    "situation": "解释内容来源",
+    "style": "刚刚在其他群里存的",
+    "count": 1
+  },
+  {
+    "situation": "用粗俗玩笑回应",
+    "style": "那你给我口吧",
+    "count": 1
+  },
+  {
+    "situation": "表达强烈不满或愤怒",
+    "style": "他妈的/狗鸡巴不是",
+    "count": 1
+  },
+  {
+    "situation": "强调夸张数量",
+    "style": "好几百个",
+    "count": 1
+  },
+  {
+    "situation": "表达妥协或临时方案",
+    "style": "对付一下",
+    "count": 1
+  },
+  {
+    "situation": "表达无奈或等待",
+    "style": "慢慢抽吧",
+    "count": 1
+  },
+  {
+    "situation": "纠正自己或他人",
+    "style": "看错了",
+    "count": 1
+  },
+  {
+    "situation": "否定他人选择",
+    "style": "就算...也不...",
+    "count": 1
+  },
+  {
+    "situation": "质问或指责他人",
+    "style": "你怎么这么自私",
+    "count": 1
+  },
+  {
+    "situation": "提及活动福利",
+    "style": "得有活动算啊",
+    "count": 1
+  },
+  {
+    "situation": "对比角色优先级",
+    "style": "先练xxx",
+    "count": 1
+  },
+  {
+    "situation": "用梗暗示角色强度差距",
+    "style": "没xx拿xx对付",
+    "count": 1
+  },
+  {
+    "situation": "表达强烈不满或贬低",
+    "style": "不如xxx",
+    "count": 1
+  },
+  {
+    "situation": "用夸张语气宣泄情绪",
+    "style": "我操了",
+    "count": 1
+  },
+  {
+    "situation": "批判代际差异",
+    "style": "一代不如一代",
+    "count": 1
+  },
+  {
+    "situation": "提及考试相关话题",
+    "style": "高考了要/加油",
+    "count": 1
+  },
+  {
+    "situation": "询问或暗示期待新内容",
+    "style": "有什么活儿",
+    "count": 1
+  },
+  {
+    "situation": "涉及图片数量统计",
+    "style": "x图了",
+    "count": 1
+  }
+]

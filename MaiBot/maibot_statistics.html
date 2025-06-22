@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaiBot运行统计报告</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .info-item {
+            background-color: #ecf0f1;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        .info-item strong {
+            color: #2980b9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #7f8c8d;
+        }
+        .tabs {
+            overflow: hidden;
+            background: #ecf0f1;
+            display: flex;
+        }
+        .tabs button {
+            background: inherit; border: none; outline: none;
+            padding: 14px 16px; cursor: pointer;
+            transition: 0.3s; font-size: 16px;
+        }
+        .tabs button:hover {
+            background-color: #d4dbdc;
+        }
+        .tabs button.active {
+            background-color: #b3bbbd;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>MaiBot运行统计报告</h1>
+        <p class="info-item"><strong>统计截止时间:</strong> 2025-06-22 11:20:44</p>
+
+        <div class="tabs">
+            <button class="tab-link" onclick="showTab(event, 'last_7_days')">最近7天</button>
+<button class="tab-link" onclick="showTab(event, 'last_24_hours')">最近24小时</button>
+<button class="tab-link" onclick="showTab(event, 'last_hour')">最近1小时</button>
+<button class="tab-link" onclick="showTab(event, 'all_time')">自部署以来的</button>
+        </div>
+
+        
+            <div id="last_7_days" class="tab-content">
+                <p class="info-item">
+                    <strong>统计时段: </strong>
+                    2025-06-15 11:20:44 ~ 2025-06-22 11:20:44
+                </p>
+                <p class="info-item"><strong>总在线时间: </strong>7天0小时0分钟0秒</p>
+                <p class="info-item"><strong>总消息数: </strong>1236</p>
+                <p class="info-item"><strong>总请求数: </strong>3881</p>
+                <p class="info-item"><strong>总花费: </strong>6.4304 ¥</p>
+                
+                <h2>按模型分类统计</h2>
+                <table>
+                    <thead><tr><th>模型名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr></thead>
+                    <tbody>
+                        <tr><td>ep-20250316123358-l62zr</td><td>1572</td><td>463110</td><td>62303</td><td>525413</td><td>0.1763 ¥</td></tr>
+<tr><td>ep-20250316153015-fbvlc</td><td>39</td><td>40459</td><td>12956</td><td>53415</td><td>0.3691 ¥</td></tr>
+<tr><td>ep-20250316153044-8r69v</td><td>2033</td><td>1222383</td><td>319905</td><td>1542288</td><td>5.0040 ¥</td></tr>
+<tr><td>ep-20250606111204-pmm28</td><td>237</td><td>252435</td><td>13737</td><td>266172</td><td>0.8809 ¥</td></tr>
+                    </tbody>
+                </table>
+                
+                <h2>按请求类型分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>请求类型</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>expressor.learner</td><td>1933</td><td>1119938</td><td>319300</td><td>1439238</td><td>4.7943 ¥</td></tr>
+<tr><td>image</td><td>237</td><td>252435</td><td>13737</td><td>266172</td><td>0.8809 ¥</td></tr>
+<tr><td>memory</td><td>1435</td><td>423368</td><td>61886</td><td>485254</td><td>0.1641 ¥</td></tr>
+<tr><td>normal.chat_1</td><td>39</td><td>40459</td><td>12956</td><td>53415</td><td>0.3691 ¥</td></tr>
+<tr><td>normal.chat_2</td><td>98</td><td>102157</td><td>494</td><td>102651</td><td>0.2083 ¥</td></tr>
+<tr><td>relation</td><td>137</td><td>39742</td><td>417</td><td>40159</td><td>0.0122 ¥</td></tr>
+<tr><td>relation.qv_name</td><td>2</td><td>288</td><td>111</td><td>399</td><td>0.0015 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>按用户分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>用户名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>system</td><td>3881</td><td>1978387</td><td>408901</td><td>2387288</td><td>6.4304 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>聊天消息统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>联系人/群组名称</th><th>消息数量</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>那一天的狮砖音游，疯人院起来</td><td>1235</td></tr>
+<tr><td>auth</td><td>1</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+            <div id="last_24_hours" class="tab-content">
+                <p class="info-item">
+                    <strong>统计时段: </strong>
+                    2025-06-21 11:20:44 ~ 2025-06-22 11:20:44
+                </p>
+                <p class="info-item"><strong>总在线时间: </strong>1天0小时0分钟0秒</p>
+                <p class="info-item"><strong>总消息数: </strong>75</p>
+                <p class="info-item"><strong>总请求数: </strong>445</p>
+                <p class="info-item"><strong>总花费: </strong>0.7508 ¥</p>
+                
+                <h2>按模型分类统计</h2>
+                <table>
+                    <thead><tr><th>模型名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr></thead>
+                    <tbody>
+                        <tr><td>ep-20250316123358-l62zr</td><td>149</td><td>29401</td><td>5537</td><td>34938</td><td>0.0121 ¥</td></tr>
+<tr><td>ep-20250316153015-fbvlc</td><td>3</td><td>2860</td><td>650</td><td>3510</td><td>0.0218 ¥</td></tr>
+<tr><td>ep-20250316153044-8r69v</td><td>281</td><td>152253</td><td>45405</td><td>197658</td><td>0.6677 ¥</td></tr>
+<tr><td>ep-20250606111204-pmm28</td><td>12</td><td>14217</td><td>709</td><td>14926</td><td>0.0490 ¥</td></tr>
+                    </tbody>
+                </table>
+                
+                <h2>按请求类型分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>请求类型</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>expressor.learner</td><td>276</td><td>147365</td><td>45381</td><td>192746</td><td>0.6578 ¥</td></tr>
+<tr><td>image</td><td>12</td><td>14217</td><td>709</td><td>14926</td><td>0.0490 ¥</td></tr>
+<tr><td>memory</td><td>141</td><td>27182</td><td>5509</td><td>32691</td><td>0.0115 ¥</td></tr>
+<tr><td>normal.chat_1</td><td>3</td><td>2860</td><td>650</td><td>3510</td><td>0.0218 ¥</td></tr>
+<tr><td>normal.chat_2</td><td>5</td><td>4888</td><td>24</td><td>4912</td><td>0.0100 ¥</td></tr>
+<tr><td>relation</td><td>8</td><td>2219</td><td>28</td><td>2247</td><td>0.0007 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>按用户分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>用户名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>system</td><td>445</td><td>198731</td><td>52301</td><td>251032</td><td>0.7508 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>聊天消息统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>联系人/群组名称</th><th>消息数量</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>那一天的狮砖音游，疯人院起来</td><td>75</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+            <div id="last_hour" class="tab-content">
+                <p class="info-item">
+                    <strong>统计时段: </strong>
+                    2025-06-22 10:20:44 ~ 2025-06-22 11:20:44
+                </p>
+                <p class="info-item"><strong>总在线时间: </strong>1小时0分钟0秒</p>
+                <p class="info-item"><strong>总消息数: </strong>9</p>
+                <p class="info-item"><strong>总请求数: </strong>19</p>
+                <p class="info-item"><strong>总花费: </strong>0.0348 ¥</p>
+                
+                <h2>按模型分类统计</h2>
+                <table>
+                    <thead><tr><th>模型名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr></thead>
+                    <tbody>
+                        <tr><td>ep-20250316123358-l62zr</td><td>4</td><td>738</td><td>15</td><td>753</td><td>0.0002 ¥</td></tr>
+<tr><td>ep-20250316153044-8r69v</td><td>14</td><td>7258</td><td>1930</td><td>9188</td><td>0.0300 ¥</td></tr>
+<tr><td>ep-20250606111204-pmm28</td><td>1</td><td>1364</td><td>56</td><td>1420</td><td>0.0046 ¥</td></tr>
+                    </tbody>
+                </table>
+                
+                <h2>按请求类型分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>请求类型</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>expressor.learner</td><td>12</td><td>5563</td><td>1919</td><td>7482</td><td>0.0265 ¥</td></tr>
+<tr><td>image</td><td>1</td><td>1364</td><td>56</td><td>1420</td><td>0.0046 ¥</td></tr>
+<tr><td>memory</td><td>2</td><td>211</td><td>9</td><td>220</td><td>0.0001 ¥</td></tr>
+<tr><td>normal.chat_2</td><td>2</td><td>1695</td><td>11</td><td>1706</td><td>0.0035 ¥</td></tr>
+<tr><td>relation</td><td>2</td><td>527</td><td>6</td><td>533</td><td>0.0002 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>按用户分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>用户名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>system</td><td>19</td><td>9360</td><td>2001</td><td>11361</td><td>0.0348 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>聊天消息统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>联系人/群组名称</th><th>消息数量</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>那一天的狮砖音游，疯人院起来</td><td>9</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+            <div id="all_time" class="tab-content">
+                <p class="info-item">
+                    <strong>统计时段: </strong>
+                    2025-06-03 10:40:13 ~ 2025-06-22 11:20:44
+                </p>
+                <p class="info-item"><strong>总在线时间: </strong>17天18小时10分钟53秒</p>
+                <p class="info-item"><strong>总消息数: </strong>5581</p>
+                <p class="info-item"><strong>总请求数: </strong>20110</p>
+                <p class="info-item"><strong>总花费: </strong>26.3508 ¥</p>
+                
+                <h2>按模型分类统计</h2>
+                <table>
+                    <thead><tr><th>模型名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr></thead>
+                    <tbody>
+                        <tr><td>BAAI/bge-m3</td><td>91</td><td>6324</td><td>0</td><td>6324</td><td>0.0000 ¥</td></tr>
+<tr><td>Pro/Qwen/Qwen2-VL-7B-Instruct</td><td>166</td><td>358393</td><td>11919</td><td>370312</td><td>0.1296 ¥</td></tr>
+<tr><td>Pro/Qwen/Qwen2.5-VL-7B-Instruct</td><td>1390</td><td>2883814</td><td>130128</td><td>3013942</td><td>1.0549 ¥</td></tr>
+<tr><td>Qwen/Qwen2.5-32B-Instruct</td><td>4070</td><td>1921604</td><td>198394</td><td>2119998</td><td>2.6712 ¥</td></tr>
+<tr><td>Qwen/Qwen2.5-7B-Instruct</td><td>1814</td><td>816797</td><td>18727</td><td>835524</td><td>0.0000 ¥</td></tr>
+<tr><td>Qwen/Qwen3-8B</td><td>16</td><td>2156</td><td>10295</td><td>12451</td><td>0.0000 ¥</td></tr>
+<tr><td>deepseek-ai/DeepSeek-V3</td><td>14</td><td>18781</td><td>1070</td><td>19851</td><td>0.0461 ¥</td></tr>
+<tr><td>ep-20250316123358-l62zr</td><td>5285</td><td>1926661</td><td>193361</td><td>2120022</td><td>0.6940 ¥</td></tr>
+<tr><td>ep-20250316153015-fbvlc</td><td>471</td><td>396485</td><td>176842</td><td>573327</td><td>4.4154 ¥</td></tr>
+<tr><td>ep-20250316153044-8r69v</td><td>6127</td><td>3948796</td><td>878470</td><td>4827266</td><td>14.9254 ¥</td></tr>
+<tr><td>ep-20250519151638-9m6kw</td><td>21</td><td>17463</td><td>4671</td><td>22134</td><td>0.0081 ¥</td></tr>
+<tr><td>ep-20250606111204-pmm28</td><td>645</td><td>689279</td><td>37596</td><td>726875</td><td>2.4062 ¥</td></tr>
+                    </tbody>
+                </table>
+                
+                <h2>按请求类型分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>请求类型</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>action_planning</td><td>14</td><td>18781</td><td>1070</td><td>19851</td><td>0.0461 ¥</td></tr>
+<tr><td>chat_observation</td><td>10</td><td>1175</td><td>176</td><td>1351</td><td>0.0000 ¥</td></tr>
+<tr><td>emoji</td><td>417</td><td>233948</td><td>61642</td><td>295590</td><td>0.2383 ¥</td></tr>
+<tr><td>expressor.learner</td><td>5011</td><td>2783809</td><td>828645</td><td>3612454</td><td>12.1968 ¥</td></tr>
+<tr><td>focus.expressor</td><td>5</td><td>3707</td><td>40</td><td>3747</td><td>0.0077 ¥</td></tr>
+<tr><td>focus.memory_activator</td><td>16</td><td>14271</td><td>396</td><td>14667</td><td>0.0045 ¥</td></tr>
+<tr><td>focus.observation.chat</td><td>16</td><td>2156</td><td>10295</td><td>12451</td><td>0.0000 ¥</td></tr>
+<tr><td>focus.planner</td><td>14</td><td>20046</td><td>945</td><td>20991</td><td>0.0477 ¥</td></tr>
+<tr><td>focus.processor.chat_mind</td><td>16</td><td>15205</td><td>1594</td><td>16799</td><td>0.0432 ¥</td></tr>
+<tr><td>focus.processor.self_identify</td><td>16</td><td>15161</td><td>176</td><td>15337</td><td>0.0047 ¥</td></tr>
+<tr><td>image</td><td>1963</td><td>3772531</td><td>125797</td><td>3898328</td><td>3.5005 ¥</td></tr>
+<tr><td>info_retrieval</td><td>4</td><td>32</td><td>0</td><td>32</td><td>0.0000 ¥</td></tr>
+<tr><td>memory</td><td>10263</td><td>4348856</td><td>405669</td><td>4754525</td><td>3.2283 ¥</td></tr>
+<tr><td>normal.chat_1</td><td>172</td><td>176543</td><td>66684</td><td>243227</td><td>1.7731 ¥</td></tr>
+<tr><td>normal.chat_2</td><td>520</td><td>535252</td><td>2716</td><td>537968</td><td>1.0922 ¥</td></tr>
+<tr><td>prompt_build</td><td>87</td><td>6292</td><td>0</td><td>6292</td><td>0.0000 ¥</td></tr>
+<tr><td>qv_name</td><td>96</td><td>12549</td><td>11720</td><td>24269</td><td>0.1189 ¥</td></tr>
+<tr><td>relation</td><td>843</td><td>257780</td><td>2645</td><td>260425</td><td>0.1277 ¥</td></tr>
+<tr><td>relation.qv_name</td><td>9</td><td>1297</td><td>507</td><td>1804</td><td>0.0066 ¥</td></tr>
+<tr><td>response_heartflow</td><td>2</td><td>2135</td><td>32</td><td>2167</td><td>0.0045 ¥</td></tr>
+<tr><td>response_reasoning</td><td>416</td><td>306213</td><td>105228</td><td>411441</td><td>2.7238 ¥</td></tr>
+<tr><td>schedule</td><td>179</td><td>430995</td><td>34076</td><td>465071</td><td>1.1862 ¥</td></tr>
+<tr><td>sub_heart_flow</td><td>14</td><td>25358</td><td>1203</td><td>26561</td><td>0.0000 ¥</td></tr>
+<tr><td>subheartflow_state_eval</td><td>7</td><td>2461</td><td>217</td><td>2678</td><td>0.0000 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>按用户分类统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>用户名称</th><th>调用次数</th><th>输入Token</th><th>输出Token</th><th>Token总量</th><th>累计花费</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>system</td><td>20110</td><td>12986553</td><td>1661473</td><td>14648026</td><td>26.3508 ¥</td></tr>
+                    </tbody>
+                </table>
+    
+                <h2>聊天消息统计</h2>
+                <table>
+                    <thead>
+                        <tr><th>联系人/群组名称</th><th>消息数量</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>打一辈子Nikke</td><td>653</td></tr>
+<tr><td>那一天的狮砖音游，疯人院起来</td><td>4856</td></tr>
+<tr><td>auth</td><td>72</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+    </div>
+
+<script>
+    let i, tab_content, tab_links;
+    tab_content = document.getElementsByClassName("tab-content");
+    tab_links = document.getElementsByClassName("tab-link");
+    
+    tab_content[0].classList.add("active");
+    tab_links[0].classList.add("active");
+
+    function showTab(evt, tabName) {{
+        for (i = 0; i < tab_content.length; i++) tab_content[i].classList.remove("active");
+        for (i = 0; i < tab_links.length; i++) tab_links[i].classList.remove("active");
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+    }}
+</script>
+</body>
+</html>
+        
